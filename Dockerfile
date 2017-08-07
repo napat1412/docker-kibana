@@ -2,7 +2,7 @@ FROM openjdk:8u121-jre
 
 LABEL maintainer "itzg"
 
-ENV KIBANA_VERSION 5.4.0
+ENV KIBANA_VERSION 5.5.1
 
 ADD https://artifacts.elastic.co/downloads/kibana/kibana-${KIBANA_VERSION}-linux-x86_64.tar.gz /tmp/kibana.tgz
 
