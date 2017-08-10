@@ -2,7 +2,9 @@
 Docker image to run kibana for Elasticsearch.
 
 ## ENV
+```
 $ES_URL      The URL of the Elasticsearch instance(master.node) to use for all your queries. (e.g. "http://url:9200")
+```
 
 ## Build
 Run the following command.
